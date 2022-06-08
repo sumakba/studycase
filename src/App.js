@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import './output.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from './Header';
+import FirstSection from './FirstSection';
+import SecondSection from './SecondSection';
+import ThirdSection from './ThirdSection';
+import FourthSection from './FourthSection';
+import NavMobile from './NavMobile';
 
 function App() {
+  const [menu, setMenu] = React.useState(false); // True State Mobile Navigasyon Açık
+  const [search, setSearch] = React.useState(false); // True State Arama Çubuğu Açık
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+    <Header search={search} setMenu={setMenu}/>
+    <NavMobile menu={menu} setSearch={setSearch}/>
+    <div className='container-md p-xs-0'>
+    <FirstSection/>
+    <SecondSection/>
+    <ThirdSection/>
+    <FourthSection/>
     </div>
+    </>
   );
 }
 

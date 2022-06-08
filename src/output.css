@@ -1,0 +1,78 @@
+body {
+  font-size: 20px;
+}
+
+#nav a {
+  color: black;
+  text-decoration: none;
+  padding-right: 40px;
+}
+#nav a:hover {
+  transition: all ease-in-out 0.2s;
+  color: #dc3545 !important;
+}
+
+.circle {
+  width: 12px;
+  height: 12px;
+  margin: 15px;
+  margin-top: 20px;
+  background-color: gray;
+  border-radius: 50px;
+  transition: all ease-in-out 0.2s;
+}
+.circle:hover {
+  background-color: black;
+  cursor: pointer;
+}
+
+.active {
+  color: #dc3545 !important;
+}
+
+.logotype {
+  font-weight: bolder;
+  font-size: 1.3em;
+}
+
+.nav-mobile {
+  position: fixed;
+  z-index: 999;
+  min-width: 100%;
+  min-height: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.nav-mobile a {
+  color: black;
+  font-size: 2em;
+  text-decoration: none;
+  line-height: 2em;
+}
+.nav-mobile a:hover {
+  color: #dc3545;
+}
+
+#search input {
+  border-radius: 2px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  font-size: 0.9em;
+  margin-left:20px;
+  margin-right:20px;
+}
+
+#search input:focus {
+  outline: none;
+}
+
+.circle-mobile {
+  position: relative !important;
+  top: -50px !important;
+  z-index: 998 !important;
+}
+
+/*# sourceMappingURL=output.css.map */
