@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+## Studycase
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Merhaba,
 
-## Available Scripts
+Öncelikle iyi çalışmalar dilerim,
 
-In the project directory, you can run:
+State management kısmını maalesef yetiştiremedim, mobilde menünün açık olma durumunu, aramanın açık olma durumunu tasarladım ve kodladım ancak tıklayınca değil, `src/App.js` içerisindeki `menu` ve `search` statelerinin false olan durumlarını true olarak değiştirerek incelenebilir, child component'lardan parent component'ın stateini güncelleyerek koşullu render etmek kaldı. Mobilde butonların görünümü de yine state management ve koşullu render ile olacağı için bunlar için de vaktim yetmedi ancak responsive durumdalar.
+Yeni teknolojilerin kullanılması istenildiği için bu durumları react ve state management dışında javascript veya jquery gibi çözümler kullanarak çözmek istemedim.
 
-### `npm start`
+React ile bir süredir çalışma yapmadığım için ilk olarak bootstrap - scss ile tasarladım daha sonra react'e çevirdim. Bootstrap - scss olan halinin dosyalarını e-posta ile paylaşıyorum, inceleyebilirsiniz ancak react hali biraz daha farklı.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* https://contrast.com.tr/ssttek/
+* https://contrast.com.tr/ssttek/search-acik.html
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Notlar:
 
-### `npm test`
+* Süre kısıtı sebebiyle yukarı scroll durumunda gizlenme durumunu ve mobilde arama kısmının altta açılma durumunu kodlayamadım.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Arama kısmının mobile-xs için gözükmediği durumunun farkındayım, daha geniş bir zamanda bu gibi taskleri tamamlayabilirim.
 
-### `npm run build`
+* Satıriçi kodları tek bir css dosyasında toplamak için vaktim kalmadı.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Verilen süre dahilinde yapabildiğim kadarını paylaşıyorum.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Vakit ayırdığınız için teşekkür eder, iyi çalışmalar dilerim.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Saygılarımla.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Batuhan SUMAK
